@@ -1,0 +1,61 @@
+.addTask {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    border: 2px solid #8653fe42;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    max-width: 650px;
+}
+
+.addTask h2 {
+    color: #8653fe;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.addTaskForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputFields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.inputField {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    width: 100%;
+    min-width: 250px;
+}
+
+.inputField label {
+    color: #7a42ff;
+    font-size: 1rem;
+}
+
+.inputField input {
+    all: unset;
+    border-radius: 5px;
+    /* width: 100%; */
+    border: 2px solid #8653fe42;
+    padding: .5rem 1rem;
+}
+
+.addTaskForm button {
+    all: unset;
+    background: linear-gradient(to right, #5e89ff, #8653fe);
+    padding: .8rem 2.5rem;
+    margin-top: 2rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

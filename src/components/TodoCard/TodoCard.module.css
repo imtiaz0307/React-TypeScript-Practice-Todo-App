@@ -1,0 +1,40 @@
+.todoCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #8653fe4d;
+    margin: 1rem auto;
+    max-width: 650px;
+    border-radius: 10px;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.cardLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cardLeft h3 {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: #8753fe;
+}
+
+.cardRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cardRight p {
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.cardRight p:nth-child(1) {
+    color: rgb(0, 206, 0);
+    font-weight: 900;
+}

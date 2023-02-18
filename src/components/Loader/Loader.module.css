@@ -1,0 +1,36 @@
+.loaderContainer {
+    height: calc(100vh - 80px);
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.spinner {
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    background-color: white;
+    z-index: 1;
+}
+
+.bg {
+    height: 80px;
+    width: 80px;
+    background: linear-gradient(to top, white, white, #8753fe 70%);
+    border-radius: 50%;
+    position: absolute;
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        rotate: 0deg;
+    }
+
+    to {
+        rotate: 360deg;
+    }
+}
